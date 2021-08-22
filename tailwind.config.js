@@ -10,6 +10,9 @@ module.exports = {
         primary: '#06202A',
         secondary: colors.yellow,
       },
+      screens: {
+        '3xl': '2000px',
+      },
     },
   },
   variants: {
@@ -19,6 +22,8 @@ module.exports = {
       scale: ['hover', 'group-hover'],
       textColor: ['active'],
       padding: ['last'],
+      fontWeight: ['group-hover'],
+      zIndex: ['hover'],
     },
   },
   plugins: [require('tailwind-scrollbar-hide')],
